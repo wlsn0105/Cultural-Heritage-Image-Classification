@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image</title>
+</head>
+<body>
+    <h1>Upload Image</h1>
+    <form id="upload-form" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" id="image-input">
+        <button type="submit">Upload</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        // 업로드 폼 참조
+        const form = document.getElementById('upload-form');
+
+        // 결과 표시할 요소 참조
+        const resultDiv = document.getElementById('result');
+
+        // 폼 제출 이벤트 리스너 추가
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); // 폼 제출 방지
+
+            // FormData 객체 생성
+            const formData = new FormData();
+            formData.append('image', form['image'].files[0]);
+
+            // fetch를 사용하여 서버에 업로드 요청
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+
+            // JSON 형식으로 응답을 파싱하여 결과 표시
+            const result = await response.json();
+            resultDiv.textContent = result.classification_result;
+        });
+    </script>
+</body>
+</html>
+
