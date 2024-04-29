@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision AI Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/imageDetection.css')}}">
+</head>
+<body>
+    <h1>물건 분류 및 감정</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="image" id="image-input" accept="image/*" required>
+        <button type="button" onclick="uploadImage()">Upload</button>
+    </form>
+
+    <div id="image-container">
+        <img id="uploaded-image" src="" alt="Uploaded Image">
+    </div>
+
+    <div id="result-container"></div>
+
+    <!-- <a href="detail">www</a> -->
+    <a href="/">main</a>
+    <a href="/search">search</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <!-- <script src="../static/js/script.js"></script> -->
+    <script src="{{ url_for('static', filename='js/imageDetection.js') }}"></script>
+    <!-- <script src="../static/js/imageDetection.js"></script> -->
+</body>
+</html>

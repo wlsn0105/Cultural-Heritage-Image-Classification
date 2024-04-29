@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>문화재청</title>
+        <meta name="description" content="문화재청은 문화재에 관한 사무를 관장하는 대한민국의 중앙행정기관입니다.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="문화재청">
+        <meta name="apple-mobile-web-app-title" content="문화재청" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <!-- Webfont -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css" />
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style_v180910.css" />
+        <!-- JavaScript & jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/front_v180910.js"></script>
+    </head>
+    <body class="main">
+        <div id="wrap">
+            
+            <!-- 스킵 네비게이션 -->
+            <div id="skip">
+                <strong class="hide">반복영역 건너뛰기</strong>
+                <a href="#gnb">주메뉴 바로가기</a>
+                <a href="#container">본문 바로가기</a>
+            </div>
+
+            <!-- 헤더 영역 -->
+            <header id="header">
+                <div class="wrapper">
+                    <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="문화재청" /></a></h1>
+                    <nav class="lnb-wrap">
+                        <ul class="lnb">
+                            <li><a href="#">홈으로</a></li>
+                            <li><a href="#">어린이·청소년 문화재청</a></li>
+                            <li><a href="#">english</a></li>
+                            <li><a href="#">japanese</a></li>
+                            <li><a href="#">chinese</a></li>
+                            <li class="sitemap"><a href="#">전체보기</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="gnb-wrap">
+                    <ul id="gnb">
+                        <li data-menu="news">
+                            <a href="page/info_guard.html">새소식</a>
+                            <ul>
+                                <li data-menu="notice"><a href="page/info_guard.html">공지사항</a></li>
+                                <li data-menu="press"><a href="page/info_guard.html">보도자료</a></li>
+                                <li data-menu="explanation"><a href="page/info_guard.html">해명자료</a></li>
+                                <li data-menu="preview"><a href="page/info_guard.html">문화재지정예고</a></li>
+                                <li data-menu="tender"><a href="page/info_guard.html">입찰정보</a></li>
+                                <li data-menu="examination"><a href="page/info_guard.html">시험/채용</a></li>
+                                <li data-menu="event"><a href="page/info_guard.html">행사안내</a></li>
+                                <li data-menu="stolen"><a href="page/info_guard.html">도난문화재정보</a></li>
+                                <li data-menu="newsletter"><a href="page/info_guard.html">소식지받아보기</a></li>
+                            </ul>
+                        </li>
+                        <li data-menu="civil">
+                            <a href="page/info_guard.html">민원마당</a>
+                            <ul>
+                                <li data-menu="infomation"><a href="page/info_guard.html">민원안내</a></li>
+                                <li data-menu="petition"><a href="page/info_guard.html">민원신청</a></li>
+                                <li data-menu="inquiry"><a href="page/info_guard.html">민원열람</a></li>
+                                <li data-menu="budgetwaste"><a href="page/info_guard.html">예산낭비신고</a></li>
+                                <li data-menu="corruption"><a href="page/info_guard.html">부패신고</a></li>
+                                <li data-menu="reform"><a href="page/info_guard.html">규제개혁신문고</a></li>
+                                <li data-menu="monitor"><a href="page/info_guard.html">시민모니터링</a></li>
+                                <li data-menu="advice"><a href="page/info_guard.html">온라인상담</a></li>
+                                <li data-menu="joinpolicy"><a href="page/info_guard.html">정책참여</a></li>
+                                <li data-menu="voiceofpeople"><a href="page/info_guard.html">국민의소리</a></li>
+                            </ul>
+                        <li data-menu="info">
+                            <a href="page/info_guard.html">문화유산정보</a>
+                            <ul>
+                                <li data-menu="nationalassembly"><a href="page/info_guard.html">국회관련정보</a></li>
+                                <li data-menu="legal"><a href="page/info_guard.html">법령정보</a></li>
+                                <li data-menu="inspection"><a href="page/info_guard.html">감사청렴정보</a></li>
+                                <li data-menu="commission"><a href="page/info_guard.html">문화재위원회</a></li>
+                                <li data-menu="guard"><a href="page/info_guard.html">한문화재한지킴이</a></li>
+                                <li data-menu="stats"><a href="page/info_guard.html">통계정보</a></li>
+                                <li data-menu="book"><a href="page/info_guard.html">문화재도서</a></li>
+                                <li data-menu="corporate"><a href="page/info_guard.html">비영리법인현황</a></li>
+                                <li data-menu="expense"><a href="page/info_guard.html">업무추진비</a></li>
+                            </ul>
+                        </li>
+                        <li data-menu="disclose">
+                            <a href="page/introduce_general.html">정보공개</a>
+                            <ul>
+                                <li data-menu="disclosure"><a href="page/introduce_general.html">정보공개제도안내</a></li>
+                                <li data-menu="public"><a href="page/introduce_general.html">행정정보공표</a></li>
+                                <li data-menu="infolist"><a href="page/introduce_general.html">정보목록</a></li>
+                                <li data-menu="claim"><a href="page/introduce_general.html">정보공개청구</a></li>
+                                <li data-menu="opendata"><a href="page/introduce_general.html">문화유산데이터개방</a></li>
+                                <li data-menu="realname"><a href="page/introduce_general.html">정책실명제</a></li>
+                                <li data-menu="culturalheritage"><a href="page/introduce_general.html">문화유산 3.0</a></li>
+                                <li data-menu="financial"><a href="page/introduce_general.html">재정정보공개</a></li>
+                            </ul>
+                        </li>
+                        <li data-menu="administration">
+                            <a href="page/introduce_general.html">행정정보</a>
+                            <ul>
+                                <li data-menu="search"><a href="page/introduce_general.html">문화재검색</a></li>
+                                <li data-menu="knowassets"><a href="page/introduce_general.html">문화재알기</a></li>
+                                <li data-menu="unesco"><a href="page/introduce_general.html">유네스코등재유산</a></li>
+                                <li data-menu="informationservice"><a href="page/introduce_general.html">문화유산정보서비스</a></li>
+                                <li data-menu="learn"><a href="page/introduce_general.html">문화유산학습</a></li>
+                                <li data-menu="background"><a href="page/introduce_general.html">문화유산바탕화면</a></li>
+                            </ul>
+                        </li>
+                        <li data-menu="introduce">
+                            <a href="page/introduce_general.html">문화재청소개</a>
+                            <ul>
+                                <li data-menu="general"><a href="page/introduce_general.html">일반현황</a></li>
+                                <li data-menu="plan"><a href="page/introduce_general.html">주요업무계획 및 평가</a></li>
+                                <li data-menu="assignment"><a href="page/introduce_general.html">국정과제</a></li>
+                                <li data-menu="normalization"><a href="page/introduce_general.html">비정상의 정상화</a></li>
+                                <li data-menu="organ"><a href="page/introduce_general.html">조직 및 직원</a></li>
+                                <li data-menu="core"><a href="page/introduce_general.html">핵심유적 복원정비사업 추진단</a></li>
+                                <li data-menu="map"><a href="page/introduce_general.html">오시는길</a></li>
+                                <li data-menu="relatedsite"><a href="page/introduce_general.html">관련사이트안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <!-- 메인 비쥬얼 롤링 배너 -->
+            <section id="visual">
+                <div class="box">
+                    <ul class="slide">
+                        <li>
+                            <div class="copy_wrap">
+                                <div class="copy">
+                                    <h3 class="copy">중요 무형문화재 제 13호</h3>
+                                    <h2 class="copy">강릉 단오제</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="copy_wrap">
+                                <div class="copy">
+                                    <h3 class="copy">중요 무형문화재 제 76호</h3>
+                                    <h2 class="copy">택견</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="copy_wrap">
+                                <div class="copy">
+                                    <h3 class="copy">중요 무형문화재 제 69호</h3>
+                                    <h2 class="copy">하회별신굿탈놀이</h2>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="indicator"></ul>
+                </div>
+            </section>
+
+            <!-- 메인 컨텐츠 영역 -->
+            <main id="container">
+
+                <!-- 검색 -->
+                <section id="search" class="wrapper">
+                    <h2 class="tit">문화재 검색 서비스</h2>
+                    <p class="desc">문화재청을 비롯한 소속 및 유관기관의 각 시스템이 보유하고 있는<br />디지털 컨텐츠를 연계하여 제공합니다.</p>
+                    <div class="search-bar">
+                        <form>
+                            <fieldset>
+                                <legend>문화재검색</legend>
+                                <label for="search-form" class="hide">검색어 입력란</label>
+                                <input type="text" class="text" id="search-form" title="검색어를 입력합니다." placeholder="문화재명을 입력하세요.">
+                                <input type="submit" class="submit" value="검색" title="새창">
+                            </fieldset>
+                        </form>
+                    </div>
+                </section>
+
+                <!-- 문화유산 정보 -->
+                <section id="info" class="wrapper">
+                	<h2 class="tit">문화유산 정보</h2>
+                    <p class="desc">우리 조상들의 자취가 풍부하게 담겨있는 문화유산 정보를 열람하여 보세요.</p>
+                	<div class="info-list">
+	                    <div class="box">
+	                        <ul class="banner">
+	                        	<li>
+	                        		<a href="#">	
+	                                    <img src="images/info01.jpg" alt="" />
+	                                    <strong class="name">국가기록유산</strong>
+	                                    <span class="txt">우리 선조들의 문학적, 사상적, 예술적 자취가 풍부하게 담겨있는 옛 문헌 등의 문서로 남아있는 문화 유산입니다.</span>
+	                                </a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info02.jpg" alt="" />
+	                                    <strong class="name">유네스코등재유산</strong>
+	                                    <span class="txt">문화적 다양성과 창의성이 유지될 수 있도록 유네스코 세계 문화 및 자연유산의 보호에 관한 협약에 의거하여 세계유산목록에 등재된 유산입니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info03.jpg" alt="" />
+	                                    <strong class="name">조선고궁포털</strong>
+	                                    <span class="txt">아름다운 문화유산! 경복궁, 창덕궁, 창경궁, 덕수궁 그리고 종묘를 소개합니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info04.jpg" alt="" />
+	                                    <strong class="name">조선왕릉전시관</strong>
+	                                    <span class="txt">1대부터 27대까지 500년 넘게 조성한 조선왕릉을 한눈에 보여주며, 조선왕릉 내부와 외부에 담긴 사상과 문화, 역사 내용이 전시되어 있습니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info05.jpg" alt="" />
+	                                    <strong class="name">문화재공간정보(GIS)</strong>
+	                                    <span class="txt">문화재의 사진 및 도면, 영상, 설명 등의 속성정보와 위성기반의 위치정보와 함께 결합돤 공간정보 활용체게 서비스입니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info06.jpg" alt="" />
+	                                    <strong class="name">국가문화유산포털</strong>
+	                                    <span class="txt">배우고, 보고, 느끼는 3가지 테마를 주제로, 각기 다른 사이트에 흩어져 있던 콘텐츠를 한 사이트로 모아 정보를 제공하는 문화유산 대표 포털사이트입니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info07.jpg" alt="" />
+	                                    <strong class="name">문화유산채널</strong>
+	                                    <span class="txt">문화유산 전승 활용과 문화 향유권 확대를 위해 TV, 인터넷, 이동방송, 공공장소에 문화유산채널에서 제작 및 제공되는 다양한 콘텐츠를 제공합니다.</span>
+	                        		</a>
+	                        	</li>
+	                        	<li>
+	                        		<a href="#">
+	                        			<img src="images/info08.jpg" alt="" />
+	                                    <strong class="name">사이버문화재탐방</strong>
+	                                    <span class="txt">모바일로도 한민족의 문화형성에 영향을 끼쳐온 한국의 여러 문화유산 탐방이 가능합니다.</span>
+	                        		</a>
+	                        	</li>
+	                        </ul>
+	                    </div>
+	                    <p class="control">
+	                        <a href="#" class="prev" title="이전 배너"><img src="images/info_prev.png" alt="이전 배너" /></a>
+	                        <a href="#" class="next" title="다음 배너"><img src="images/info_next.png" alt="다음 배너" /></a>
+	                    </p>
+	                </div>
+                </section>
+
+                <!-- 문화재소식 -->
+                <section id="notice">
+                    <div class="wrapper">
+                        <h2 class="tit">문화재 소식</h2>
+                        <p class="desc">소중한 문화유산 소식을 전합니다.</p>
+                        <ul class="ntc-tit clearfix">
+                            <li>
+                                <h3 class="title"><a href="#">전체보기</a><span></span></h3>
+                                <ul class="ntc-con">
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">29</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">국립문화재연구소 전문임기제공무원(다급) 경력경쟁채용시험 최종 합격자 공고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">28</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">문화재지정예고</h4>
+                                            <p class="txt">사적 제320호 울산 경상좌도병영성 보호구역 추가지정</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">27</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">공지사항</h4>
+                                            <p class="txt">2016 문화재 안전 애호의식 UCC 공모전 심사 결과 알림</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">26</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">미술문화재연구실 기간제 근로자 채용 서류전형 합격자 및 면접심사 공고</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3 class="title"><a href="#">공지사항</a><span></span></h3>
+                                <ul class="ntc-con">
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">28</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">공지사항</h4>
+                                            <p class="txt">2016 문화재 안전 애호의식 UCC 공모전 심사 결과 알림</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">27</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">공지사항</h4>
+                                            <p class="txt">무형문화재 전승자 주관 기획행사 전문역량 강화 과정Ⅰ 교육안내</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">26</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">공지사항</h4>
+                                            <p class="txt">2016년도 문화유산교육 시행단체 선정결과 공고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">25</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">공지사항</h4>
+                                            <p class="txt">2016년 중요무형문화재 지정(인정) 조사 계획 알림</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3 class="title"><a href="#">입찰정보</a><span></span></h3>
+                                <ul class="ntc-con">
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">24</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">입찰정보</h4>
+                                            <p class="txt">근·현대문화유산 교육분야 목록화 조사 연구</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">23</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">입찰정보</h4>
+                                            <p class="txt">2016년 4대궁·종묘 안내해설사 모니터링 용역</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">22</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">입찰정보</h4>
+                                            <p class="txt">2016년 향교․서원 문화재 활용 사업 홍보물 제작</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">21</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">입찰정보</h4>
+                                            <p class="txt">태평양전쟁유적 일제조사 종합분석 연구용역</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3 class="title"><a href="#">시험채용</a><span></span></h3>
+                                <ul class="ntc-con">
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">29</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">국립문화재연구소 전문임기제공무원(다급) 경력경쟁채용시험 최종 합격자 공고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">09</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">미술문화재연구실 기간제 근로자 채용 서류전형 합격자 및 면접심사 공고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">09</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">미술문화재연구실 기간제 근로자(연구원, 국제) 서류전형 합격자 발표 및 면접시험 공고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">02</em>
+                                                <span class="yyyymm">2017.12</span>
+                                            </p>
+                                            <h4 class="tit">시험채용</h4>
+                                            <p class="txt">2016년도 건축문화재연구실 기간제 근로자(연구원) 서류전형 합격자 발표 및 면접시험 공고</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3 class="title"><a href="#">문화재지정예고</a><span></span></h3>
+                                <ul class="ntc-con">
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">29</em>
+                                                <span class="yyyymm">2017.11</span>
+                                            </p>
+                                            <h4 class="tit">문화재지정예고</h4>
+                                            <p class="txt">사적 제320호 울산 경상좌도병영성 보호구역 추가지정</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">10</em>
+                                                <span class="yyyymm">2017.11</span>
+                                            </p>
+                                            <h4 class="tit">문화재지정예고</h4>
+                                            <p class="txt">파주 칠중성(서족 제437호)문화재 구역 추가지정 및 조정 예고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">10</em>
+                                                <span class="yyyymm">2017.11</span>
+                                            </p>
+                                            <h4 class="tit">문화재지정예고</h4>
+                                            <p class="txt">파주 혜음원지(사적 제464호) 현상변경 허용기준 변경 예고</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="date">
+                                                <em class="dd">29</em>
+                                                <span class="yyyymm">2017.11</span>
+                                            </p>
+                                            <h4 class="tit">문화재지정예고</h4>
+                                            <p class="txt">'환구단'(사적 제157호) 보호구역 지정 예고</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 홍보영상 -->
+                <section id="video">
+                    <div class="wrapper">
+                        <h2 class="tit">국가문화유산포털 홍보영상</h2>
+                        <p class="desc">국가문화유산포털은 생생하게 보고, 느끼고, 배우는 문화유산 디지털 콘텐츠 통합사이트입니다.</p>
+                    </div>
+                    <div class="video-wrap">
+                        <p class="play"><a href="#"><img src="images/play.png" alt="재생 버튼" /></a></p>
+                    </div>
+                    <div class="popup-vid">
+                        <iframe width="800" height="450" title="국가문화유산포털 홍보영상" src="https://www.youtube.com/embed/tIcnvztC8pA?controls=0&showinfo=0" allowfullscreen></iframe>
+                        <p class="close"><a href="#" title="클릭시 영상 팝업이 닫힙니다."><img src="images/close_btn.png" alt="닫기 버튼" /></a></p>
+                    </div>
+                </section>
+
+                <!-- 주요서비스 -->
+                <section id="serv" class="wrapper">
+                    <h2 class="tit">주요서비스</h2>
+                    <p class="desc">국민과 함께하는 소통의 장이자<br />문화유산 온라인 향유의 장이 되기 위하여 정성을 다하겠습니다.</p>
+                    <ul class="serv-list">
+                        <li>
+                            <a href="#">
+                                <img src="images/serv01.png" alt="" />
+                                <strong>사전예약감정</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv02.png" alt="" />
+                                <strong>도난문화재정보</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv03.png" alt="" />
+                                <strong>문화재통계</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv04.png" alt="" />
+                                <strong>법령정보</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv05.png" alt="" />
+                                <strong>행정자료</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv06.png" alt="" />
+                                <strong>정책참여</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv07.png" alt="" />
+                                <strong>간행물</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/serv08.png" alt="" />
+                                <strong>감사청렴정보</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            
+            <!-- 탑 버튼 -->
+            <p class="top"><a href="#" title="페이지 상단으로 이동"><img src="images/top.jpg" alt="상단 바로가기 이미지" /></a></p>
+
+            <!-- 푸터 영역 -->
+            <footer id="footer">
+                <div class="wrapper">
+                    <h2 class="logo"><img src="images/footer_logo.png" alt="하단 로고" /></h2>
+                    <address>대전광역시 서구 청사로 189, 정부대전청사 1동 8~11층, 2동 14층</address>
+                    <p class="copyright">Copyright © 2018 CULTURAL HERITAGE ADMINISTRATION. ALL RIGHT RESERVED.</p>        
+                    <div class="fam-site" aria-label="이동할 관련 사이트를 선택하고 이동 버튼을 클릭하거나 엔터를 누르세요.">
+                        <label for="fam-select-01" class="hide">관련 소속기관 목록</label>
+                        <select id="fam-select-01" aria-label="관련 사이트를 선택하세요.">
+                            <option selected="selected">소속기관</option>
+                            <option>조선왕릉</option>
+                            <option>세종대왕유적</option>
+                            <option>경복궁</option>
+                            <option>창덕궁</option>
+                            <option>덕수궁</option>
+                            <option>창경궁</option>
+                            <option>종묘</option>
+                        </select>
+                        <a href="#" class="go" role="button" aria-label="클릭시 관련 사이트로 이동">이동</a>
+                        <label for="fam-select-02" class="hide">관련 산하기관 목록</label>
+                        <select id="fam-select-02" aria-label="관련 사이트를 선택하세요.">
+                            <option selected="selected">산하기관</option>
+                            <option>국립문화재연구소</option>
+                            <option>문화재보존과학센터</option>
+                            <option>한국전통문화대학교</option>
+                            <option>국립고궁박물관</option>
+                            <option>현충사관리소</option>
+                            <option>칠백의총관리소</option>
+                            <option>국립무형유산원</option>
+                        </select>
+                        <a href="#" class="go" role="button" aria-label="클릭시 관련 사이트로 이동">이동</a>
+                    </div>
+                    <div class="sns">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook icon"></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter icon"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram icon"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Script -->
+        <script>
+        'use strict';
+        
+            // 메인 비주얼 슬라이드
+            $('#visual').setImageSlide({
+                timerSpeed: 5000,
+                fadeSpeed: 1000,
+                transitionType: 'animation'
+            });
+            
+            // 문화유산정보
+            $('.info-list').setSlideBanner({
+                widthMoveUnit: 1
+            });
+            
+            mainNtc();
+            mainVid();
+        
+        </script>
+    </body>
+</html>

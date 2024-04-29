@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <!-- <a href="/">www</a> -->
+    <!-- href는 python에서 설정한 route이름 -->
+    <p>main 페이지</p>
+    <a href="/fund">fund</a>
+    <a href="/search">search</a>
+    <a href="/imageDetection">imageDetection</a>
+    <!-- <a href="/info_guard">info</a> -->
+
+    <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+</body>
+</html>
+
+
