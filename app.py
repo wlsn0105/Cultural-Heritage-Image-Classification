@@ -77,7 +77,7 @@ def upload():
         return jsonify({'error': 'Invalid file format'}), 400
 
     # Vision AI API에 연결
-    client = vision_v1.ImageAnnotatorClient.from_service_account_file('visionai-416513-82056cc0b57a.json')
+    client = vision_v1.ImageAnnotatorClient.from_service_account_file('your_visionai_api_key')
 
     # 이미지를 Vision API에 전송
     with open(image_path, 'rb') as image_file:
