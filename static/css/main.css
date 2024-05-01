@@ -97,18 +97,34 @@ a:hover {
 }
 
 .title {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
     color: #f2f2f2;
+    margin-top: -10rem;
+    /* border: solid 1px orange; */
 }
 
-.color-box {
+.title-header-box {
     background-color: #12887a;
+    width: fit-content;
+    padding: 4px 0px 4px 12px;
+    margin-left: -12px;
+    border-radius: 52px 0px 52px 0px;
 }
 
 .title-header {
     font-size: 3rem;
-    margin-top: 12px;
+    margin-top: 4px;
+    display: flex;
+}
+
+.title-header-outside {
+    padding: 4px 0;
+}
+
+.title-content {
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
