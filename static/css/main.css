@@ -81,10 +81,6 @@ a:hover {
 }
 
 .main {
-    /* border: solid 5px black; */
-}
-
-.main-banner {
     margin-top: -2px;
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
         url(../images/main_banner.png);
@@ -92,10 +88,13 @@ a:hover {
     height: 88.5vh;
     background-size: cover;
     background-repeat: no-repeat;
+    /* border: solid 1px red; */
     /* title 적용 */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* arrow 적용 */
+    flex-direction: column;
 }
 
 .title {
@@ -104,7 +103,7 @@ a:hover {
     align-items: center; */
     /* flex-direction: column; */
     color: #f2f2f2;
-    margin-top: -10rem;
+    margin-top: -14%;
     /* border: solid 1px orange; */
 }
 
@@ -129,4 +128,22 @@ a:hover {
 .title-content {
     font-size: 1.2rem;
     margin-top: 2rem;
+}
+
+.arrow {
+    /* border: solid 5px orange; */
+    rotate: 180deg;
+    position: absolute;
+    bottom: 4%;
+    animation: arrow-ani 0.6s cubic-bezier(0.37, 0.01, 0.63, 0.99) infinite
+        alternate;
+}
+
+@keyframes arrow-ani {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(30px);
+    }
 }
