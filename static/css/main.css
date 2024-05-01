@@ -84,26 +84,31 @@ a:hover {
 
 .main-banner {
     margin-top: -2px;
-    background: url(../images/main_banner.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url(../images/main_banner.png);
     width: 100%;
     height: 88.5vh;
-    filter: brightness(50%);
     background-size: cover;
     background-repeat: no-repeat;
     /* title 적용 */
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .title {
-    position: absolute;
-    top: 40%;
-    left: 40%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
     color: #f2f2f2;
 }
 
 .color-box {
     background-color: #12887a;
+}
+
+.title-header {
+    font-size: 3rem;
+    margin-top: 12px;
 }
