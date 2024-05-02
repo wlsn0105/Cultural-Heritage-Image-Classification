@@ -23,7 +23,7 @@
                 </ul>
             </div>
         </header>
-        <div class="status-bar"></div>
+        <div class="progress"></div>
         
         <!-- main 메인 영역 -->
         <section class="main">
@@ -45,12 +45,14 @@
         </section>
 
         <!-- white-scroll-ani 흰 스크롤 애니메이션 영역 -->
-        <section class="main">
-            </section>
+        <section class="scroll-box">
+            <div class="white-box-scroll"></div>
+            <div class="black-box-scroll"></div>
+            <div class="white-box-scroll"></div>
+        </section>
     </div>
-    <p>main 페이지</p>
 
-    <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+    <script type="module" src="/static/js/main.js"></script>
 </body>
 </html>
 
