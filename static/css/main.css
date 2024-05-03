@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* 리셋 영역 */
 body,
 html,
 ul,
@@ -22,6 +23,7 @@ body {
     overflow-x: hidden;
 }
 
+/* 헤더 영역 */
 a {
     text-decoration: none;
     color: #6a6a6a;
@@ -94,6 +96,7 @@ a:hover {
     transform-origin: left;
 }
 
+/* 메인 배너 영역 */
 .main {
     margin-top: -2px;
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/main_banner.png);
@@ -160,6 +163,7 @@ a:hover {
     }
 }
 
+/* 스크롤 애니메이션 영역 */
 .scroll-box {
     /* border: solid 3px red; */
     font-size: 60px;
@@ -228,3 +232,5 @@ a:hover {
     height: 100vh;
     border: solid 3px purple;
 }
+
+/* 가로 스크롤 애니메이션 */
