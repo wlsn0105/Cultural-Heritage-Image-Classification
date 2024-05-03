@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🇰🇷문화재 공유 플랫폼</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-</head>
-<body>
-    <div class="wrap">
-
-        <!-- header 헤더 영역-->
-        <header class="header">
-            <div class="header-wrap">
-                <a href="/"><img class="logo" src="/static/images/logo.png" alt="logo"></a>
-                <ul class="subpages-list">
-                    <li class="subpage"><a href="/fund">펀딩</a></li>
-                    <li class="subpage"><a href="/search">검색</a></li>
-                    <li class="subpage"><a href="/imageDetection">감정</a></li>
-                    <li class="subpage"><a href="/">신고</a></li>
-                    <li class="subpage"><a href="/">기부</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="progress"></div>
-        
-        <!-- main 메인 영역 -->
-        <section class="main">
-            <div class="title">
-                <h2 class="title-header">우리 모두가</h2>
-                <h2 class="title-header">
-                    <div class="title-header-box">
-                        우리의 역사를 기억하는 공간
-                    </div>
-                    <span class="title-header-outside">이 되도록</span>
-                </h2>
-                <div class="title-content">
-                    문화재 공유 플랫폼이 지켜내보겠습니다.
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🇰🇷문화재 공유 플랫폼</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    </head>
+    <body>
+        <div class="wrap">
+            <!-- header 헤더 영역-->
+            <header class="header">
+                <div class="header-wrap">
+                    <a href="/"><img class="logo" src="/static/images/logo.png" alt="logo" /></a>
+                    <ul class="subpages-list">
+                        <li class="subpage"><a href="/fund">펀딩</a></li>
+                        <li class="subpage"><a href="/search">검색</a></li>
+                        <li class="subpage"><a href="/imageDetection">감정</a></li>
+                        <li class="subpage"><a href="/">신고</a></li>
+                        <li class="subpage"><a href="/">기부</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" color="#ffffff" viewBox="0 0 24 24"><path fill="currentColor" d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5z"/></svg>
-            </div>
-        </section>
+            </header>
+            <div class="progress"></div>
 
-        <!-- white-scroll-ani 흰 스크롤 애니메이션 영역 -->
-        <section class="scroll-box">
-            <div class="white-box-scroll"></div>
-            <div class="black-box-scroll"></div>
-            <div class="white-box-scroll"></div>
-        </section>
-    </div>
+            <!-- main 메인 영역 -->
+            <section class="main">
+                <div class="title">
+                    <h2 class="title-header">우리 모두가</h2>
+                    <h2 class="title-header">
+                        <div class="title-header-box">우리의 역사를 기억하는 공간</div>
+                        <span class="title-header-outside">이 되도록</span>
+                    </h2>
+                    <div class="title-content">문화재 공유 플랫폼이 지켜내보겠습니다.</div>
+                </div>
+                <div class="arrow">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="2.4em"
+                        height="2.4em"
+                        color="#ffffff"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            fill="currentColor"
+                            d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5z"
+                        />
+                    </svg>
+                </div>
+            </section>
 
-    <script type="module" src="/static/js/main.js"></script>
-</body>
+            <!-- scale-scroll-ani 크기 스크롤 애니메이션 영역 -->
+            <section class="scroll-box">
+                <figure class="color-box">
+                    <p class="target-head">문화재와 크라우드 펀딩의 만남</p>
+                </figure>
+                <figure class="color-box">
+                    <p class="target-text">문화재 공유 플랫폼은 역사와 IT의 만남으로</p>
+                    <p class="target-text">문화재와 크라우드 펀딩이 잘 어우러져</p>
+                    <p class="target-text">모두가 참여하고 지원할 수 있는 공간을 제공하여</p>
+                    <p class="target-text">우리의 역사와 문화를 지켜나갈 수 있도록 돕고자 한다.</p>
+                </figure>
+            </section>
+
+            <!-- explain 설명 영역 -->
+            <section class="service">
+                <!-- 가로 스크롤 영역 -->
+                <p>서비스 소개</p>
+            </section>
+
+            <!-- sample -->
+            <!-- <div class="qqq">qqq</div> -->
+        </div>
+
+        <script type="module" src="/static/js/main.js"></script>
+    </body>
 </html>
-
-

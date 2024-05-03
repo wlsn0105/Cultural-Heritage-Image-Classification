@@ -1,14 +1,27 @@
+.qqq {
+    width: 100%;
+    height: 800px;
+    border: solid 2px black;
+    box-sizing: border-box;
+}
+
 body,
 html,
 ul,
 li,
-h2 {
+h2,
+p {
     margin: 0;
     padding: 0;
     font-family: "Nanum Myeongjo", serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     /* padding-top: 60px; */
 }
+
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: #6a6a6a;
@@ -77,7 +90,7 @@ a:hover {
     height: 10px;
     position: sticky;
     top: 0;
-    /* z-index: 100; */
+    z-index: 100;
     transform-origin: left;
 }
 
@@ -148,15 +161,48 @@ a:hover {
 }
 
 .scroll-box {
-    border: solid 3px red;
+    /* border: solid 3px red; */
+    font-size: 48px;
+    /* margin: 0 auto; */
 }
 
-.white-box-scroll {
+.color-box {
+    margin: 0 auto;
     height: 100vh;
-    background-color: #eee;
+    width: 100%;
+    background-color: #fff;
+    border: solid 3px blue;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.black-box-scroll {
+.color-box:nth-child(2) {
+    width: 100%;
     height: 100vh;
-    background-color: #000;
+    margin: 0 auto;
+    background-color: #12887a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.target-head {
+    /* margin-top: 120px; */
+}
+
+.target-text {
+    font-size: 28px;
+    width: 35%;
+    /* border: solid 1px red; */
+    text-align: left;
+}
+
+.service {
+    width: 100%;
+    height: 100vh;
+    border: solid 3px purple;
 }
