@@ -18,6 +18,9 @@ p {
     box-sizing: border-box;
     /* padding-top: 60px; */
 }
+img {
+    max-width: 100%;
+}
 
 body {
     overflow-x: hidden;
@@ -227,10 +230,31 @@ a:hover {
     margin-bottom: -7px;
 }
 
-.service {
+.explain {
     width: 100%;
-    height: 100vh;
-    border: solid 3px purple;
+    height: 100%;
+    border: solid 3px blue;
+    contain: paint;
 }
 
 /* 가로 스크롤 애니메이션 */
+.gallery {
+    border: solid 5px brown;
+    display: flex;
+}
+
+.gallery-item {
+    border: solid 3px green;
+    width: 70vw;
+    flex-shrink: 0;
+}
+
+.gallery-photo {
+    /* border: solid 3px beige;
+    width: 100%; */
+}
+
+.gallery-photo img {
+    /* width: 600px;
+    height: 500px; */
+}
