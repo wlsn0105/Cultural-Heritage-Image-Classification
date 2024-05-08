@@ -167,9 +167,14 @@ a:hover {
 }
 
 /* 스크롤 애니메이션 영역 */
+.scroll {
+    /* border: dashed 5px red;
+    contain: paint; */
+}
+
 .scroll-box {
-    /* border: solid 3px red; */
     font-size: 60px;
+    /* border: dashed 5px blue; */
     /* margin: 0 auto; */
 }
 
