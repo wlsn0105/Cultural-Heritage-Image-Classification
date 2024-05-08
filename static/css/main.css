@@ -239,37 +239,38 @@ a:hover {
 .width-scroll {
     width: 100%;
     height: 2000px;
-    border: dashed 5px blue;
+    /* border: dashed 5px blue; */
     contain: paint;
 }
 
 .gallery {
-    border: solid 5px brown;
+    /* border: solid 5px brown; */
     display: flex;
     position: sticky;
     top: 0;
     width: 280vw;
-    max-width: 3200px;
+    max-width: 5300px;
     height: 100vh;
     align-items: center;
 }
 
 .service-introduce {
-    font-size: 24px;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    border: solid 3px grey;
+    font-size: 2rem;
+    color: #333;
+    /* width: 240px; */
+    /* border: solid 3px grey; */
+    text-decoration: underline 3px #2f566e;
+    text-underline-offset: 8px;
 }
 
 .gallery-item {
-    border: solid 3px green;
+    /* border: solid 3px green; */
     width: 70vw;
-    max-width: 800px;
+    max-width: 1100px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    margin: 0 6rem;
+    margin: 0 5rem;
 }
 
 .gallery-photo {
@@ -278,11 +279,37 @@ a:hover {
 }
 
 .gallery-photo img {
-    width: 600px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
+}
+
+.content-title {
+    font-size: 1rem;
+    /* border: solid 3px darkgoldenrod; */
+    /* margin-top: 12px; */
+    height: 360px;
+    max-height: 400px;
+}
+
+.gallery-header {
+    /* border: solid 3px #2f566e; */
+    margin-bottom: 24px;
+    text-decoration: underline 3px #2f566e;
+    text-underline-offset: 8px;
 }
 
 .gallery-content {
-    font-size: 24px;
-    border: solid 4px red;
+    font-size: 18px;
+    /* border: solid 4px red; */
+    width: 400px;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+.header-border {
+    width: 40px;
+    background-color: #2f566e;
+    height: 4px;
+    margin-top: -12px;
+    margin-bottom: 12px;
 }

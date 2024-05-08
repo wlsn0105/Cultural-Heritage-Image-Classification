@@ -45,7 +45,7 @@ targetBoxes.forEach((box) => {
 const gallery = document.querySelector(".gallery");
 const widthScroll = document.querySelector(".width-scroll");
 
-gallery.animate([{ transform: "translateX(calc(20%))" }, { transform: "translateX(calc(-100% + 20vw))" }], {
+gallery.animate([{ transform: "translateX(calc(15%))" }, { transform: "translateX(calc(-100% + 80vw))" }], {
     fill: "both",
     timeline: new ScrollTimeline({
         scrollOffsets: [
