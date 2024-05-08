@@ -40,3 +40,17 @@ targetBoxes.forEach((box) => {
         }
     );
 });
+
+// 가로 스크롤
+const gallery = document.querySelector(".gallery");
+const widthScroll = document.querySelector(".width-scroll");
+
+gallery.animate([{ transform: "translateX(calc(20%))" }, { transform: "translateX(calc(-100% + 20vw))" }], {
+    fill: "both",
+    timeline: new ScrollTimeline({
+        scrollOffsets: [
+            { target: widthScroll, edge: "start", threshold: 1 },
+            { target: widthScroll, edge: "end", threshold: 1 },
+        ],
+    }),
+});

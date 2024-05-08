@@ -230,31 +230,54 @@ a:hover {
     margin-bottom: -7px;
 }
 
-.explain {
+/* 가로 스크롤 애니메이션 */
+.width-scroll {
     width: 100%;
-    height: 100%;
-    border: solid 3px blue;
+    height: 2000px;
+    border: dashed 5px blue;
     contain: paint;
 }
 
-/* 가로 스크롤 애니메이션 */
 .gallery {
     border: solid 5px brown;
     display: flex;
+    position: sticky;
+    top: 0;
+    width: 280vw;
+    max-width: 3200px;
+    height: 100vh;
+    align-items: center;
+}
+
+.service-introduce {
+    font-size: 24px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: solid 3px grey;
 }
 
 .gallery-item {
     border: solid 3px green;
     width: 70vw;
+    max-width: 800px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin: 0 6rem;
 }
 
 .gallery-photo {
-    /* border: solid 3px beige;
-    width: 100%; */
+    display: flex;
+    align-items: center;
 }
 
 .gallery-photo img {
-    /* width: 600px;
-    height: 500px; */
+    width: 600px;
+    height: 400px;
+}
+
+.gallery-content {
+    font-size: 24px;
+    border: solid 4px red;
 }
