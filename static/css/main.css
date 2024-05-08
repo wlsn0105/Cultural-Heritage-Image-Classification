@@ -11,6 +11,7 @@ html,
 ul,
 li,
 h2,
+h3,
 p {
     margin: 0;
     padding: 0;
@@ -306,10 +307,123 @@ a:hover {
     color: #444;
 }
 
-.header-border {
-    width: 40px;
-    background-color: #2f566e;
-    height: 4px;
-    margin-top: -12px;
-    margin-bottom: 12px;
+/* 서비스 타겟 영역 */
+.service-target {
+    /* border: solid 3px red; */
+}
+
+.service-target-title {
+    /* border: solid 3px black; */
+    width: fit-content;
+    font-size: 2rem;
+    margin-left: 160px;
+    text-decoration: underline 3px #2f566e;
+    text-underline-offset: 8px;
+}
+
+.service-target-culture {
+    /* border: solid 3px brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.service-target-content {
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 200px;
+}
+
+.culture-content {
+    width: 179px;
+    /* border: solid 3px purple; */
+    margin-right: 20px;
+    color: #666;
+}
+
+.culture-content:nth-child(4) {
+    margin: 0;
+}
+
+/* 문화재 가치 영역 */
+.value {
+    border: solid 3px black;
+    margin-bottom: 200px;
+}
+
+.value-title {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.value-title-black {
+    color: #333333;
+}
+
+.value-title-green {
+    color: #15685b;
+}
+
+.group-mark {
+    /* border: solid 3px beige; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.group-culture {
+    /* border: solid 3px red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.culture-icon {
+    /* border: solid 3px yellow; */
+    margin: 0 120px;
+}
+
+.culture-icon img {
+    width: 120px;
+    height: 120px;
+}
+
+.value-content {
+    /* border: solid 3px blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.value-content-group {
+    /* border: solid 3px deepskyblue; */
+    text-align: center;
+}
+
+.value-line {
+    width: 45px;
+    height: 1px;
+    background-color: #c6c6c6;
+    margin: 0 auto;
+}
+
+.value-content-title {
+    font-size: 1.5rem;
+    /* border: solid 3px brown; */
+    color: #444;
+    margin-top: 60px;
+}
+
+.value-content-text {
+    /* border: dashed 3px pink; */
+    color: #666;
+    width: 310px;
+    margin: 0 30px;
+    margin-top: 30px;
 }
