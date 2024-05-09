@@ -307,6 +307,10 @@ a:hover {
     color: #444;
 }
 
+.gallery-content p {
+    line-height: 28px;
+}
+
 /* 서비스 타겟 영역 */
 .service-target {
     /* border: solid 3px red; */
