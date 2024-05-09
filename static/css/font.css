@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/* nanum-myeongjo-regular - korean */
+@font-face {
+    font-family: "Nanum Myeongjo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/nanum-myeongjo-v8-korean-regular.eot"); /* IE9 Compat Modes */
+    src: local("NanumMyeongjo"), url("../fonts/nanum-myeongjo-v8-korean-regular.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("../fonts/nanum-myeongjo-v8-korean-regular.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-regular.woff") format("woff"),
+        /* Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-regular.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("../fonts/nanum-myeongjo-v8-korean-regular.svg#NanumMyeongjo") format("svg"); /* Legacy iOS */
+}
+/* nanum-myeongjo-700 - korean */
+@font-face {
+    font-family: "Nanum Myeongjo";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/nanum-myeongjo-v8-korean-700.eot"); /* IE9 Compat Modes */
+    src: local("NanumMyeongjo Bold"), local("NanumMyeongjoBold"),
+        url("../fonts/nanum-myeongjo-v8-korean-700.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("../fonts/nanum-myeongjo-v8-korean-700.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-700.woff") format("woff"),
+        /* Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-700.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("../fonts/nanum-myeongjo-v8-korean-700.svg#NanumMyeongjo") format("svg"); /* Legacy iOS */
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* 헤더 영역 */
+a {
+    text-decoration: none;
+    color: #6a6a6a;
+}
+
+a:hover {
+    color: #4aaab5;
+    transition: 0.4s;
+}
+
+.wrap {
+    /* border: solid 1px black; */
+    width: 100%;
+    /* width: 100vw; */
+    height: 100%;
+}
+
+.header {
+    /* position: fixed; */
+    /* top: 0; */
+    background: url(../images/header_bg.jpg) center top;
+    height: 120px;
+    width: 100%;
+    max-width: 100%;
+    z-index: 100;
+    /* border: solid 5px red; */
+}
+
+.header-wrap {
+    /* border: solid 1px orange; */
+    margin: 0 160px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /* position: absolute;
+    left: 9%; */
+    width: 100px;
+    height: 100px;
+}
+
+.subpages-list {
+    margin: 0 auto;
+    position: absolute;
+    left: 40%;
+    /* border: solid 1px blue; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: -1%;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.subpage {
+    padding: 0 1em;
+    /* color: #6a6a6a; */
+    font-size: 22px;
+}
+
+.progress {
+    background-color: #307676;
+    width: 100%;
+    height: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transform-origin: left;
+}
+
+/* footer 푸터 영역 */
+.footer {
+    /* border: solid 3px yellow; */
+    background-color: #222;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    /* border: solid 3px red; */
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    /* border: solid 3px blue; */
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: 120px;
+    filter: saturate(0%);
+}
+
+.copyright {
+    /* border: solid 3px purple; */
+    color: #cacacc;
+    width: 66%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright-header {
+    /* border: solid 3px green; */
+    display: flex;
+}
+
+.copyright-header p {
+    /* border: solid 3px yellow; */
+    margin-left: 2rem;
+}
+
+.copyright-address {
+    display: flex;
+    /* border: solid 3px blueviolet; */
+    margin-top: 1rem;
+}
+
+.copyright-address p {
+    margin-left: 2rem;
+}
+
+.copyright-reserve {
+    /* border: solid 3px saddlebrown; */
+    display: flex;
+    color: #686c6f;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.copyright-reserve p {
+}
+
+.footer-culture {
+    /* border: solid 3px skyblue; */
+    width: 14%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.footer-culture img {
+    /* border: solid 1px black; */
+    margin-top: 8px;
+    filter: saturate(0%);
+    /* height: 40px; */
+}
+
+.footer-svg {
+    /* border: solid 3px pink; */
+    height: 120px;
+    display: flex;
+}
+
+.footer-svg img {
+    width: 40px;
+    height: 40px;
+    /* margin: 0 auto; */
+    padding: 0 0.5rem;
+    /* border: solid 1px greenyellow; */
+}
