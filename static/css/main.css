@@ -352,7 +352,7 @@ a:hover {
 
 /* 문화재 가치 영역 */
 .value {
-    border: solid 3px black;
+    /* border: solid 3px black; */
     margin-bottom: 200px;
 }
 
@@ -426,4 +426,106 @@ a:hover {
     width: 310px;
     margin: 0 30px;
     margin-top: 30px;
+}
+
+/* footer 푸터 영역 */
+.footer {
+    /* border: solid 3px yellow; */
+    background-color: #222;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    /* border: solid 3px red; */
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    /* border: solid 3px blue; */
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: 120px;
+    filter: saturate(0%);
+}
+
+.copyright {
+    /* border: solid 3px purple; */
+    color: #cacacc;
+    width: 66%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright-header {
+    /* border: solid 3px green; */
+    display: flex;
+}
+
+.copyright-header p {
+    /* border: solid 3px yellow; */
+    margin-left: 2rem;
+}
+
+.copyright-address {
+    display: flex;
+    /* border: solid 3px blueviolet; */
+    margin-top: 1rem;
+}
+
+.copyright-address p {
+    margin-left: 2rem;
+}
+
+.copyright-reserve {
+    /* border: solid 3px saddlebrown; */
+    display: flex;
+    color: #686c6f;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.copyright-reserve p {
+}
+
+.footer-culture {
+    /* border: solid 3px skyblue; */
+    width: 14%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.footer-culture img {
+    /* border: solid 1px black; */
+    margin-top: 8px;
+    filter: saturate(0%);
+    /* height: 40px; */
+}
+
+.footer-svg {
+    /* border: solid 3px pink; */
+    height: 120px;
+    display: flex;
+}
+
+.footer-svg img {
+    width: 40px;
+    height: 40px;
+    /* margin: 0 auto; */
+    padding: 0 0.5rem;
+    /* border: solid 1px greenyellow; */
 }
