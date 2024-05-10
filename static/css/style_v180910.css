@@ -220,7 +220,10 @@ body {
 #gnb > li > ul > li a:hover {
     color: #4aaab5;
 }
-/* #gnb > li > a {font-size: 18px; color: #444;} */
+#gnb > li > a {
+    font-size: 18px;
+    color: #444;
+}
 #gnb > li:nth-child(1) {
     padding-left: 0;
 }
@@ -254,15 +257,29 @@ body {
     margin: 0 15px;
     background: #777;
 }
-/* #gnb > li > ul > li > a {line-height: 60px; color: #ccc; font-size: 14px; transition: all 0.1s;} */
-/* #header .lnb-wrap {position: absolute; top: 0; right: 0; font-weight: 400;} */
+#gnb > li > ul > li > a {
+    line-height: 60px;
+    color: #ccc;
+    font-size: 14px;
+    transition: all 0.1s;
+}
+#header .lnb-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+}
 #header .lnb-wrap .lnb li {
     display: inline-block;
     height: 27px;
     margin-left: 6px;
     line-height: 20px;
 }
-/* #header .lnb-wrap .lnb li a {font-size: 11px; text-transform: uppercase; color: #666;} */
+#header .lnb-wrap .lnb li a {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666;
+}
 #header .lnb-wrap .lnb li.sitemap {
     border-radius: 0 0 10px 10px;
     background: url(../images/more.png) 55px center no-repeat;

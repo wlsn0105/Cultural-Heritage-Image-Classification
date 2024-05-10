@@ -96,15 +96,15 @@ a:hover {
 
 /* 메인 비쥬얼 롤링 배너 */
 .box {
-    margin-top: -7.3%;
-    /* border: solid 5px blue; */
+    /* border: solid 3px yellow; */
+    margin-top: -156px;
 }
 
 /* 문화유산 정보 */
 
 .info-list {
     /* border: solid 3px black; */
-    margin-top: 120px;
+    margin-top: 186px;
 }
 
 /* footer 푸터 영역 */
