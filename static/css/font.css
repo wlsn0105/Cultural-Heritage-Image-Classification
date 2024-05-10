@@ -1,4 +1,4 @@
-@charset "utf-8";
+/* @charset "utf-8"; */
 
 /* nanum-myeongjo-regular - korean */
 @font-face {
@@ -24,12 +24,4 @@
         /* Super Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-700.woff") format("woff"),
         /* Modern Browsers */ url("../fonts/nanum-myeongjo-v8-korean-700.ttf") format("truetype"),
         /* Safari, Android, iOS */ url("../fonts/nanum-myeongjo-v8-korean-700.svg#NanumMyeongjo") format("svg"); /* Legacy iOS */
-}
-
-img {
-    max-width: 100%;
-}
-
-body {
-    overflow-x: hidden;
 }

@@ -1,3 +1,26 @@
+/* 리셋 영역 */
+body,
+html,
+ul,
+li,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "Nanum Myeongjo", serif;
+
+    box-sizing: border-box;
+    /* padding-top: 60px; */
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 /* 헤더 영역 */
 a {
     text-decoration: none;
@@ -69,6 +92,19 @@ a:hover {
     top: 0;
     z-index: 100;
     transform-origin: left;
+}
+
+/* 메인 비쥬얼 롤링 배너 */
+.box {
+    margin-top: -7.3%;
+    /* border: solid 5px blue; */
+}
+
+/* 문화유산 정보 */
+
+.info-list {
+    /* border: solid 3px black; */
+    margin-top: 120px;
 }
 
 /* footer 푸터 영역 */
