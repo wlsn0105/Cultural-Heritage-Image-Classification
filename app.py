@@ -112,10 +112,6 @@ def upload():
                     'predicted_price': predicted_price,
                     'image_url': image_url})
 
-    # return jsonify({'labels': [{'description': label.description} for label in selected_labels],
-    #                 'predicted_price': predicted_price,
-    #                 'image_url': image_url})
-
 @app.route('/uploads/<filename>')
 def uploaded_image(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
