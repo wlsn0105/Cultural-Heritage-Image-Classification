@@ -1,33 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision AI Demo</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/imageDetection.css')}}">
-</head>
-<body>
-    <h1>물건 분류 및 감정</h1>
-    <form id="upload-form" enctype="multipart/form-data">
-        <input type="file" name="image" id="image-input" accept="image/*" required>
-        <button type="button" onclick="uploadImage()">Upload</button>
-    </form>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vision AI Demo</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/imageDetection.css')}}" />
+    </head>
+    <body>
+        <div class="wrap">
+            <!-- header 헤더 영역-->
+            <header class="header">
+                <div class="header-wrap">
+                    <a href="/"><img class="logo" src="/static/images/logo.png" alt="logo" /></a>
+                    <ul class="subpages-list">
+                        <li class="subpage"><a href="/fund">펀딩</a></li>
+                        <li class="subpage"><a href="/search">검색</a></li>
+                        <li class="subpage"><a href="/imageDetection">감정</a></li>
+                        <li class="subpage"><a href="/">신고</a></li>
+                        <li class="subpage"><a href="/">기부</a></li>
+                    </ul>
+                </div>
+            </header>
 
-    <div id="image-container">
-        <img id="uploaded-image" src="" alt="Uploaded Image">
-    </div>
+            <!-- 감정 영역 -->
+            <section class="detection">
+                <div class="center-container">
+                    <div class="detection-box">
+                        <div class="upload-content">
+                            <form id="upload-form" enctype="multipart/form-data">
+                                <label className="input-file-button" for="input-file"> 업로드 </label>
+                                <input type="file" id="input-file" style="display: none" />
+                                <input
+                                    class="image-upload"
+                                    type="file"
+                                    name="image"
+                                    id="image-input"
+                                    accept="image/*"
+                                    required
+                                />
+                            </form>
+                            <button class="upload-button" type="button" onclick="uploadImage()">Upload</button>
+                            <div id="image-container">
+                                <img id="uploaded-image" src="" alt="Uploaded Image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-box">
+                        <div></div>
+                    </div>
+                </div>
 
-    <div id="result-container"></div>
+                <!--  -->
+                <div>
+                    <div id="result-container"></div>
+                </div>
+            </section>
 
-    <!-- <a href="detail">www</a> -->
-    <a href="/">main</a>
-    <a href="/search">search</a>
+            <!-- footer 푸터 영역 -->
+            <section class="footer">
+                <div class="footer-box">
+                    <div class="footer-logo">
+                        <img src="/static/images/logo.png" alt="logo" />
+                    </div>
+                    <div class="copyright">
+                        <div class="copyright-header">
+                            <p>개인정보처리방침</p>
+                            <p>이용약관</p>
+                            <p>정보공개방</p>
+                        </div>
+                        <div class="copyright-address">
+                            <p>(47011) 부산광역시 사상구 주례로 47</p>
+                            <p>TEL : 051-320-1740</p>
+                            <p>FAX : 051-320-1740</p>
+                        </div>
+                        <div class="copyright-reserve">
+                            <p>Copyrightⓒ 2024 동서대학교 소프트웨어학과 박진우.&nbsp;</p>
+                            <p>All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="footer-culture">
+                        <img src="/static/images/footer-culture.png" alt="foreign-culture" />
+                        <img src="/static/images/culture-admin.png" alt="culture-admin" />
+                    </div>
+                    <div class="footer-svg">
+                        <img src="/static/images/facebook.svg" alt="facebook" />
+                        <img src="/static/images/instagram.svg" alt="instagram" />
+                        <img src="/static/images/twitter.svg" alt="twitter" />
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <!-- <script src="../static/js/script.js"></script> -->
-    <script src="{{ url_for('static', filename='js/imageDetection.js') }}"></script>
-    <!-- <script src="../static/js/imageDetection.js"></script> -->
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <!-- <script src="../static/js/script.js"></script> -->
+        <script src="{{ url_for('static', filename='js/imageDetection.js') }}"></script>
+        <!-- <script src="../static/js/imageDetection.js"></script> -->
+    </body>
 </html>
