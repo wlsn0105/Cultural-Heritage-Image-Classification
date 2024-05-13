@@ -19,10 +19,16 @@ $ pip install tensorflow
 
 ### 메인 UI
 
-<img width="1000" alt="main-ui1" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/f833a6a7-9bd6-4cd1-bafb-2317b3a4137b">
-<!-- <img width="1000" alt="main-ui1" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/a9a7669f-769d-41c4-a0ca-cf1e8a49b8d9">
-<img width="1000" alt="main-ui2" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/ed4dcdb9-e958-406c-a594-9ed126fe2b8c">
-<img width="1000" alt="main-ui3" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/a202c4dd-6129-4437-8e2f-f1b2b33d6b14">
-<img width="1000" alt="main-ui4" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/44167db2-0323-4013-a681-452490080858">
-<img width="1000" alt="main-ui5" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/c218f6e1-ca73-4b28-bd6e-a6c463372dd4">
-<img width="1000" alt="main-ui6" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/a24e52d2-1e1e-4ff5-a280-70d165bb245d"> -->
+<img width="1000" alt="main-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/f833a6a7-9bd6-4cd1-bafb-2317b3a4137b">
+
+### 펀딩 UI
+
+<img width="1000" alt="fund-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/c882d1cc-e9d8-49ef-8b90-bcef3341348c">
+
+### 검색 UI
+
+<img width="1000" alt="search-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/61ff5d2b-93c4-4a1e-a7e7-2e32263eeba6">
+
+### 감정 UI
+
+<img width="1000" alt="search-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/3b7f09b3-f2e2-4a9c-8dcc-7d453afd4ea4">
