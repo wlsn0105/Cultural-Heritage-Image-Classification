@@ -48,6 +48,10 @@ def index():
 def fund(): 
     return render_template('fund.html')
 
+@app.route('/fund2')
+def fund2(): 
+    return render_template('fund2.html')
+
 @app.route('/search')
 def search(): 
     return render_template('search.html')

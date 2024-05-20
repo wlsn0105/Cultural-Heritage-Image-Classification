@@ -1,7 +1,6 @@
 .qqq {
     width: 100%;
-    height: 800px;
-    border: solid 2px black;
+
     box-sizing: border-box;
 }
 
@@ -152,12 +151,13 @@ a:hover {
 
 .funding-items {
     /* border: solid 3px blue; */
-    margin: 0 160px;
+    margin: 0 8.3%;
     /* height: 100vh; */
     padding-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(4, 456px);
-    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4, 456px); */
+    justify-content: center;
     margin-bottom: 100px;
 }
 
@@ -168,6 +168,8 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .funding-item img {
@@ -189,6 +191,28 @@ a:hover {
     background-color: #12887a;
 }
 
+.funding-bar2 {
+    height: 6px;
+    width: 20%;
+    background-color: #12887a;
+}
+
+.funding-bar3 {
+    height: 6px;
+    width: 70%;
+    background-color: #12887a;
+}
+.funding-bar4 {
+    height: 6px;
+    width: 80%;
+    background-color: #12887a;
+}
+.funding-bar5 {
+    height: 6px;
+    width: 50%;
+    background-color: #12887a;
+}
+
 .funding-text {
     display: flex;
     /* border: solid 1px blue; */
@@ -200,14 +224,18 @@ a:hover {
 }
 
 .item-price {
+    width: 81%;
     display: flex;
     /* border: solid 1px red; */
     margin-left: 0.5rem;
+    justify-content: space-between;
 }
 
 .item-present-price {
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
     /* border: solid 1px black; */
+}
+.item-target-price {
 }
 
 .item-text {
