@@ -250,7 +250,7 @@ a:hover {
     display: flex;
     position: sticky;
     top: 0;
-    width: 280vw;
+    width: 350vw;
     max-width: 5300px;
     height: 100vh;
     align-items: center;
@@ -259,10 +259,11 @@ a:hover {
 .service-introduce {
     font-size: 2rem;
     color: #333;
-    /* width: 240px; */
+    /* width: 300px; */
     /* border: solid 3px grey; */
     text-decoration: underline 3px #2f566e;
     text-underline-offset: 8px;
+    display: flex;
 }
 
 .gallery-item {

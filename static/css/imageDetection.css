@@ -84,6 +84,10 @@ a:hover {
     font-size: 22px;
 }
 
+.subpage-in {
+    color: #4aaab5;
+}
+
 /* detection 감정 영역 */
 .detection {
     background: url(/static/images/detection-background.jpeg) no-repeat;

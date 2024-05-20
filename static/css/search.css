@@ -84,6 +84,10 @@ a:hover {
     font-size: 22px;
 }
 
+.subpage-in {
+    color: #4aaab5;
+}
+
 .progress {
     background-color: #307676;
     width: 100%;

@@ -525,7 +525,7 @@ body {
     display: block;
     width: 870px;
     height: 1px;
-    background-color: #ddd;
+    /* background-color: #ddd; */
     margin: 120px auto 100px;
 }
 #info .info-list {
