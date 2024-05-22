@@ -39,15 +39,17 @@
                                         style="display: none"
                                     />
                                 </form>
-                                <button class="upload-button" type="button" onclick="uploadImage()">감 정</button>
+                                <button class="upload-button" type="button" onclick="uploadImage()">감 별</button>
                             </div>
                             <div id="image-container">
+                                <div id="image-placeholder" class="placeholder1">사진 넣는 곳</div>
                                 <img id="uploaded-image" src="" alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="result-box">
                         <div class="result-content">
+                            <div id="result-placeholder" class="placeholder2">감별 결과</div>
                             <div id="result-container"></div>
                         </div>
                     </div>
@@ -88,6 +90,8 @@
                 </div>
             </section>
         </div>
+        <!-- 로딩 스피너 -->
+        <div class="loader" id="loader"></div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="{{ url_for('static', filename='js/script.js') }}"></script>
