@@ -33,9 +33,12 @@ def predict_price(model, img_path):
     # price = ['10000원', '20000원', '30000원', '40000원', '50000원']
     # return np.random.choice(price)  # 가상의 랜덤 값
 
-    random_number = random.uniform(10, 100)
-    price = round(random_number) * 100000
-    return str(price) + "원"
+    min_random_number = random.uniform(10, 50)
+    max_random_number = random.uniform(min_random_number, 100)
+    min_price = round(min_random_number) * 100000
+    max_price = round(max_random_number) * 1000000
+    # return str(min_price) + "원" + "~" + str(max_price) + "원"
+    return f"{min_price}원 ~ {max_price}원"
 
 # route는 html에서 경로 설정할 때 /지정할 이름
 # return에는 경로주소

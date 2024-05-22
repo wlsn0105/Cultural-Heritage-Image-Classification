@@ -102,26 +102,26 @@ a:hover {
 
 .center-container {
     /* border: solid 3px blue; */
-    width: 85.6%;
+    width: 85%;
     height: 84%;
-    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .detection-box {
     border: dashed 3px #333;
     border-radius: 12px;
-    width: 39%;
-    height: 64%;
-    margin: 0 20px;
+    width: 45%;
+    height: 80%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute;
     left: 9%;
-    top: 23%;
+    top: 0%; */
 }
 
 .detection-upload {
@@ -174,12 +174,12 @@ a:hover {
 .result-box {
     border: dashed 3px #333;
     border-radius: 12px;
-    width: 39%;
-    height: 64%;
-    margin: 0 20px;
-    position: absolute;
+    width: 45%;
+    height: 80%;
+    margin: 0 auto;
+    /* position: absolute;
     right: 9%;
-    top: 23%;
+    top: 23%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +188,7 @@ a:hover {
 #result-container {
     font-size: 1.3rem;
     color: #333;
-    width: 480px;
+    width: 500px;
     height: 400px;
     /* border: solid 1px black; */
     display: flex;
