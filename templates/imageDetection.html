@@ -25,22 +25,23 @@
             <!-- 감정 영역 -->
             <section class="detection">
                 <div class="center-container">
+                    <div class="upload">
+                        <form id="upload-form" enctype="multipart/form-data">
+                            <label class="input-file-button" for="image-input"> 사진 선택 </label>
+                            <input
+                                type="file"
+                                name="image"
+                                id="image-input"
+                                accept="image/*"
+                                required
+                                style="display: none"
+                            />
+                        </form>
+                        <button class="upload-button" type="button" onclick="uploadImage()">감 별</button>
+                    </div>
                     <div class="detection-box">
                         <div class="detection-upload">
-                            <div class="upload-content">
-                                <form id="upload-form" enctype="multipart/form-data">
-                                    <label class="input-file-button" for="image-input"> 사진 선택 </label>
-                                    <input
-                                        type="file"
-                                        name="image"
-                                        id="image-input"
-                                        accept="image/*"
-                                        required
-                                        style="display: none"
-                                    />
-                                </form>
-                                <button class="upload-button" type="button" onclick="uploadImage()">감 별</button>
-                            </div>
+                            <div class="upload-content"></div>
                             <div id="image-container">
                                 <div id="image-placeholder" class="placeholder1">사진 넣는 곳</div>
                                 <img id="uploaded-image" src="" alt="" />
