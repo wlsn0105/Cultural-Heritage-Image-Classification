@@ -24,7 +24,7 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # 모델 로드 (가상의 함수로 가정)
 def load_price_prediction_model():
-    # 가상의 함수, 실제로는 모델을 로드하는 코드를 추가하세요.
+    # 가상의 함수, 실제로는 모델을 로드하는 코드를 추가
     return None
 
 # 이미지를 전처리하고 모델에 전달하여 가격 예측
@@ -33,8 +33,8 @@ def predict_price(model, img_path):
     # price = ['10000원', '20000원', '30000원', '40000원', '50000원']
     # return np.random.choice(price)  # 가상의 랜덤 값
 
-    min_random_number = random.uniform(10, 50)
-    max_random_number = random.uniform(min_random_number, 100)
+    min_random_number = random.uniform(10, 40)
+    max_random_number = random.uniform(50, 100)
     min_price = round(min_random_number) * 100000
     max_price = round(max_random_number) * 1000000
     # return str(min_price) + "원" + "~" + str(max_price) + "원"
@@ -102,7 +102,14 @@ def upload():
     # 라벨 이름을 변경하는 딕셔너리
     label_mapping = {
         'Drinkware': '토기',
-        'Tableware': '',
+        'Tableware': '토기',
+        'Vase': '토기',
+        'Serveware': '토기',
+        'Handwriting': '고서적',
+        'Book': '고서적',
+        'Sculpture': '불상',
+        'Statue': '불상',
+        
         # 필요한 라벨과 변경할 이름을 추가합니다.
     }
     
@@ -118,6 +125,10 @@ def upload():
     return jsonify({'labels': transformed_labels,
                     'predicted_price': predicted_price,
                     'image_url': image_url})
+
+    # return jsonify({'labels': [{'description': label.description} for label in selected_labels],
+    #                 'predicted_price': predicted_price,
+    #                 'image_url': image_url})
 
 @app.route('/uploads/<filename>')
 def uploaded_image(filename):
