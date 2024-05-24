@@ -24,6 +24,16 @@ img {
 
 body {
     overflow-x: hidden;
+    animation: FadeIn 0.5s;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* 헤더 영역 */
