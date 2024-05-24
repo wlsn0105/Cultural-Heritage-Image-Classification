@@ -542,3 +542,16 @@ a:hover {
     padding: 0 0.5rem;
     /* border: solid 1px greenyellow; */
 }
+
+.moveTopBtn {
+    /* border: solid 1px black; */
+    background: url(../images/moveTopBtn.png) no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 4rem;
+    right: 3rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    animation: arrow-ani 1s cubic-bezier(0.37, 0.01, 0.63, 0.99) infinite alternate;
+}
