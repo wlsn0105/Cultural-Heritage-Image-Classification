@@ -3,6 +3,7 @@
 ## 설치
 
 ```
+$ pip install flask
 $ pip install google-cloud-vision
 $ pip install keras
 $ pip install tensorflow
