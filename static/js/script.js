@@ -1,3 +1,18 @@
+$(document).ready(function () {
+    // 파일 입력 요소의 change 이벤트 핸들러 추가
+    $("#image-input").on("change", function () {
+        var file = this.files[0];
+        if (file) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $("#uploaded-image").attr("src", e.target.result).show();
+                $("#image-placeholder").hide();
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+});
+
 function uploadImage() {
     var formData = new FormData();
     formData.append("image", $("#image-input")[0].files[0]);
