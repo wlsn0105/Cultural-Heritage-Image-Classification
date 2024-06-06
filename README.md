@@ -26,9 +26,9 @@ $ pip install tensorflow
 
 <img width="1000" alt="fund-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/aa18d27e-009a-41d3-b3d8-9879d44e1255">
 
-### 정보 UI
+### 소식 UI
 
-<img width="1000" alt="search-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/61ff5d2b-93c4-4a1e-a7e7-2e32263eeba6">
+<img width="1000" alt="search-ui" src="https://github.com/wlsn0105/Cultural-Heritage-Image-Classification/assets/101302676/3176408d-93df-4a51-8a6d-34bba66ca48b">
 
 ### 감별 UI
 
